@@ -1,0 +1,16 @@
+body{
+    background-color:hotpink;
+    margin-top: 30px;
+}
+
+h1{
+    font-family: fantasy;
+}
+#home{
+    margin-left: 100px;
+}
+
+a{
+    font-style: unset;
+    font: 1em sans-serif;
+}

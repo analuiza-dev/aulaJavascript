@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha Página </title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="js/main.js"></script> </script>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body onload="load()">
+        <ul>
+            <li><b><a href="#home">Home</a></b></li>
+            <li><b><a href="">Apresentation</a></b></li>
+            <li><b><a href="">About us</a></b></li>
+        </ul>
+        <session id="home">
+            <h1>Quarantine Mood</h1>
+            <p>Studying a lot, how can i do?</p>
+         </session>
+         <button onclick="clicou()" type="button">Clique aqui</button>
+         <h3 onclick="redirecionar()" id="agradecimento"></h3>
+         <p onmouseout="voltar()" onmouseover="trocar()" id="mousemove">Passe o mouse aqui</p>
+         <p onmouseout="voltar2(this)" onmouseover="trocar2(this)" id="mousemove2">Passe o mouse aqui 2</p>
+         
+         <select onchange="funcaoChange(this)">
+             <option value="1">Valor 1</option>
+             <option value="2">Valor 2</option>
+             <option value="3">Valor 3</option>
+         </select>
+    </body>
+</html>
